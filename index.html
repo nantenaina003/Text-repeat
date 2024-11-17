@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+<link rel="stylesheet" href="aos-master/dist/aos.css">
+<title>Signature</title>
+</head>
+<body>
+<div class="fond">
+<div class="centre">
+<form method="post" class="form" data-aos="fade" data-aos-delay="1100">
+<div class="section" data-aos="fade" data-aos-delay="1400">
+<div class="dark_mode">
+<i id="moon" class="far fa-moon" data-aos="fade" data-aos-delay="1700"></i>
+<i id="sun" class="far fa-sun" data-aos="fade" data-aos-delay="1700"></i>
+</div>
+<h1 class="h1" data-aos="fade" data-aos-delay="1900">TEXT <span class="repeat">REPEATER</span></h1>
+<div class="line"></div>
+</div>
+<textarea class="textarea" placeholder="Enter your text here..." data-aos="fade" data-aos-delay="2000"></textarea>
+<label for="input" class="label" data-aos="fade" data-aos-delay="2100">Number of repetitions : <span class="num">( Between 1 and 5000 )</span></label><br />
+<input id="input" type="number" class="input" min="1" max="5000" data-aos="fade" data-aos-delay="2300">
+<button type="submit" id="bouton" class="bouton" data-aos="fade" data-aos-delay="2500">Generate</button>
+<div class="resultat" data-aos="fade" data-aos-delay="2100">
+<div class="txt">
+<i id="copy" class="far fa-copy" data-aos="fade" data-aos-delay="2700"></i>
+<li><i id="down" class="fas fa-caret-down" data-aos="fade" data-aos-delay="2500"></i></li>
+<div class="social">
+<div class="prf">
+<h4 class="h4">PROFIL LINK</h4>
+<i id="times" class="far fa-times-circle"></i>
+</div>
+<div class="lines"></div>
+<li class="li"><a href="https://www.facebook.com/Nantenaina.josoa777"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+<li class="li1"><a href="https://www.linkedin.com/in/josoa-n-a83b90317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+<li class="li2"><a href="https://wa.me/qr/CCIS7D76HB4OK1"><i class="fab fa-whatsapp-square"></i> WhatsApp</a></li>
+<li class="li3"><a href="https://github.com/nantenaina003/"><i class="fab fa-github-square"></i> Github</a></li>
+<li class="li4"><a href="https://join.skype.com/invite/Gts2n0dso5aY?source=qr-android"><i class="fab fa-skype"></i> Skype</a></li>
+</div>
+</div>
+<div class="lines"></div>
+<div>
+<div id="rst" class="result" data-aos="fade" data-aos-delay="3000"></div>
+</div>
+</div>
+<div class="alert">
+<p id="zt" class="zt_alert"></p>
+<p class="success"></p>
+</div>
+</form>
+</div>
+</div>
+
+
+<!-- animation d'entrée -->
+<div class="anim">
+	<div class="centre">
+  <div class="container">
+    <div class="loader"><span></span></div>
+    <div class="loader"><span></span></div>
+    <div class="loader"><i></i></div>
+    <div class="loader"><i></i></div>
+  </div>
+  </div>
+</div>
+
+
+
+</body>
+<script src="js/main.js"></script>
+<script src="aos-master/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
+</html>
